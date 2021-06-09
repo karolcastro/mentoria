@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mentoria:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mentoria_jar</output-path>
+    <root id="archive" name="mentoria.jar">
+      <element id="module-output" name="mentoria" />
+    </root>
+  </artifact>
+</component>
