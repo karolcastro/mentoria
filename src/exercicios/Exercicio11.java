@@ -6,7 +6,12 @@ package exercicios;
 // Construir um vetor C que seja o resultado da junção dos vetores A e B, de forma que contenha 10 elementos.
 // Apresentar os elementos do vetor C
 
-import java.io.OptionalDataException;
+
+/**
+ * <p>Exercicio11</p>
+ *
+ * @author Karol de Castro
+ */
 
 public class Exercicio11 extends Exercicio {
 
@@ -14,6 +19,7 @@ public class Exercicio11 extends Exercicio {
         static final int QUANTIDADE_DE_LEITURA_B = 5;
         static final int QUANTIDADE_DE_LEITURA_C = 10;
 
+        @Override
         public void executar() {
             final int[] vetorA = new int[QUANTIDADE_DE_LEITURA_A];
             final int[] vetorB = new int[QUANTIDADE_DE_LEITURA_B];

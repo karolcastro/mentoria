@@ -1,10 +1,14 @@
 package exercicios;
 
-public class Main {
-     public static void main(String[] args) {
+import exercicios.parteA.Exercicio1;
 
-         Exercicio ex = new Exercicio11();
+public class Main {
+    public static void main(String[] args) {
+
+        Exercicio ex = new Exercicio1();
 
          ex.executar();
-     }
+
+    }
 }
+
